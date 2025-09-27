@@ -15,17 +15,23 @@ In Week 1, we focus on foundational concepts in RTL design and digital logic syn
 
 Key topics covered this week include:
 
-**Verilog RTL Design and Simulation** – Learn how to model digital logic circuits using Verilog and simulate their behavior.
+Verilog RTL & Simulation: Learn to model digital circuits and simulate their behavior efficiently.
 
-**Verification using Icarus Verilog and GTKWave** – Explore how to compile Verilog designs with Icarus Verilog and visualize simulation results using the open-source waveform viewer GTKWave.
+Verification: Use Icarus Verilog to compile designs and GTKWave to visualize simulation waveforms.
 
-**Logic Synthesis with Yosys** – Understand how to synthesize RTL designs into gate-level representations using Yosys, along with practical exposure to the SKY130 PDK (Process Design Kit) Library for open-source ASIC design.
+Logic Synthesis: Convert RTL code to gate-level designs with Yosys, leveraging the SKY130 PDK for practical ASIC design experience.
 
-Key Digital Design Conccepts:
-**Testbenches** – Create test environments to verify the correctness of your designs.
-**Timing Libraries** – Understand the role of standard cell timing information in synthesis and timing analysis.
-**D Flip-Flop Coding Styles** – Explore efficient coding practices for sequential elements to ensure reliable synthesis.
-**Optimization Techniques** – Learn strategies for combinational and sequential logic optimization to improve area, speed, and power.
+Key Digital Design Concepts:
+
+Testbenches: Create environments to systematically verify your designs.
+
+Timing Libraries: Understand standard cell timing and its impact on synthesis and performance.
+
+D Flip-Flop Coding Styles: Explore best practices for reliable sequential logic coding.
+
+Optimization Techniques: Apply strategies to improve area, speed, and power in combinational and sequential logic.
+
+This week combines theory sessions with hands-on labs, ensuring practical exposure to modern open-source VLSI design flows.
 
 This week combines theory sessions and lab exercises, ensuring you gain hands-on experience with modern open-source VLSI design flows.
 
