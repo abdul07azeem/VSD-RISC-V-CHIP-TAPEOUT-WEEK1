@@ -72,7 +72,7 @@ Run the simulation:
 
 View Waveform in GTKWave using Value Change Dump file[vcd file]
 
-![gtkwave tb_good_mux.vcd](This PC\2022\Internal storage\Riscv)
+![gtkwave tb_good_mux.vcd](D:\Day1\good_mux.png)
 
 
 
