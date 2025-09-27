@@ -25,7 +25,7 @@ A testbench is a separate Verilog module used to verify the functionality of a d
 It applies inputs to the design and observes outputs over time.
 
 ---
-Simulator
+##Simulator
 
 A testbench is a separate Verilog module used to verify the functionality of a design.
 It applies inputs to the design and observes outputs over time.
@@ -53,5 +53,26 @@ Together, these tools allow you to **simulate and debug** your digital designs e
 Different **flavors of logic gates** exist to optimize for **speed, area, or power**. These libraries are used during synthesis to map RTL logic to **actual physical cells** in an ASIC.
 
 ---
+
+## Lab: Simulating a 2:1 Multiplexer 
+Step 1: Clone the Repositry
+git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
+
+Step 2: Install Required Tools Such as iverilog and GTKWave
+sudo apt install iverilog
+sudo apt install gtkwave
+
+Step 3: Simulate Design using instructions below
+
+iverilog good_mux.v tb_good_mux.v
+
+Run the simulation:
+./a.out
+
+View Waveform in GTKWave using Value Change Dump file[vcd file]
+
+![gtkwave tb_good_mux.vcd](This PC\2022\Internal storage\Riscv)
+
 
 
