@@ -35,31 +35,21 @@ This week combines theory sessions with hands-on labs, ensuring practical exposu
 
 This week combines theory sessions and lab exercises, ensuring you gain hands-on experience with modern open-source VLSI design flows.
 
-
+________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Prerequisites
 Week 1 is beginner-friendly but having the below prerequisites will make labs and synthesis exercises much smoother.
-1. Digital Design Fundamentals:
--Basic understanding of digital logic gates (AND, OR, NOT, NAND, NOR, XOR).
--Knowledge of combinational and sequential circuits (multiplexers, adders, flip-flops, counters).
+-Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
 
-2. Verilog Basics
--Basic syntax and structure of Verilog HDL.
--Understanding of module definitions, ports, and signal types (wire, reg).
--Awareness of blocking vs non-blocking assignments in sequential logic.
+-Verilog fundamentals (modules, ports, signals, blocking/non-blocking assignments)
 
-3. Simulation and Verification Concepts
--Understanding of testbenches and their role in verifying digital designs.
--Familiarity with waveform analysis (how signals change over time).
+-Testbenches and waveform analysis concepts
 
-4. Logic Synthesis Knowledge:
--Basic idea of converting RTL code into gate-level implementation.
--Awareness of timing constraints, standard cell libraries, and optimization goals (area, speed, power).
+-Logic synthesis basics (timing, optimization)
 
-5. Software and Tools
--Basic knowledge of Linux command line for file navigation and running scripts.
--Ability to compile and run code using open-source tools like Icarus Verilog.
--Familiarity with Git/GitHub for version control is recommended but not mandatory.
+-Familiarity with Linux, Icarus Verilog, GTKWave, Yosys and Git/GitHub
+
+-Basic programming skills (C/Python)
 
 
 ## Workshop Structure
