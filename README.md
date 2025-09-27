@@ -15,23 +15,19 @@ In Week 1, we focus on foundational concepts in RTL design and digital logic syn
 
 Key topics covered this week include:
 
-Verilog RTL & Simulation: Learn to model digital circuits and simulate their behavior efficiently.
+●***Verilog RTL & Simulation:** Learn to model digital circuits and simulate their behavior efficiently.
 
-Verification: Use Icarus Verilog to compile designs and GTKWave to visualize simulation waveforms.
+●**Verification:** Use Icarus Verilog to compile designs and GTKWave to visualize simulation waveforms.
 
-Logic Synthesis: Convert RTL code to gate-level designs with Yosys, leveraging the SKY130 PDK for practical ASIC design experience.
+●**Logic Synthesis:** Convert RTL code to gate-level designs with Yosys, leveraging the SKY130 PDK for practical ASIC design experience.
 
-Key Digital Design Concepts:
+●**Key Digital Design Concepts:**
 
 Testbenches: Create environments to systematically verify your designs.
 
 Timing Libraries: Understand standard cell timing and its impact on synthesis and performance.
 
-D Flip-Flop Coding Styles: Explore best practices for reliable sequential logic coding.
-
 Optimization Techniques: Apply strategies to improve area, speed, and power in combinational and sequential logic.
-
-This week combines theory sessions with hands-on labs, ensuring practical exposure to modern open-source VLSI design flows.
 
 This week combines theory sessions and lab exercises, ensuring you gain hands-on experience with modern open-source VLSI design flows.
 
@@ -39,26 +35,47 @@ ________________________________________________________________________________
 
 ## Prerequisites
 Week 1 is beginner-friendly but having the below prerequisites will make labs and synthesis exercises much smoother.
--Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
+●Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
 
--Verilog fundamentals (modules, ports, signals, blocking/non-blocking assignments)
+●Verilog fundamentals (modules, ports, signals, blocking/non-blocking assignments)
 
--Testbenches and waveform analysis concepts
+●Testbenches and waveform analysis concepts
 
--Logic synthesis basics (timing, optimization)
+●Logic synthesis basics (timing, optimization)
 
--Familiarity with Linux, Icarus Verilog, GTKWave, Yosys and Git/GitHub
+●Familiarity with Linux, Icarus Verilog, GTKWave, Yosys and Git/GitHub
 
--Basic programming skills (C/Python)
+●Basic programming skills (C/Python)
 
 
 ## Workshop Structure
-Details here...
+Day-wise Structure:
+
+Day 1: Introduction to RTL Verilog RTL Design and Synthesis.
+
+Day 2: Timing libraries, Hierarchial vs Flat Synthesis and efficient codin styles.
+
+Day 3: Combinational and Sequential Optimizations.
+
+Day 4: Gate Level Simulation, Blocking vs Non-Blocking Statements and Synthesis Simulation Mismatch.
+
+Day 5: Optimization in Synthesis
 
 ## License
-License info here...
+
 
 ## Acknowledgements
-Thanks here...
+I gratefully acknowledge the developers and communities of the following open-source tools that made this workshop possible:
+
+☛Icarus Verilog
+   For compiling and simulating Verilog designs.
+☛GTKWave
+  For waveform visualization and analysis.
+☛Yosys
+  For logic synthesis and RTL-to-gates conversion.
+☛SkyWater SKY130 PDK
+  For open-source ASIC standard cell libraries.
+
+Special thanks to Kunal Ghosh and team from VLSI Sytem Design. 
 
 
