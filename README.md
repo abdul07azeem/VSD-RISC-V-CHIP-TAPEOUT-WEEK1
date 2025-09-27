@@ -15,13 +15,13 @@ In Week 1, we focus on foundational concepts in RTL design and digital logic syn
 
 Key topics covered this week include:
 
-●***Verilog RTL & Simulation:** Learn to model digital circuits and simulate their behavior efficiently.
+≫**Verilog RTL & Simulation:** Learn to model digital circuits and simulate their behavior efficiently.
 
-●**Verification:** Use Icarus Verilog to compile designs and GTKWave to visualize simulation waveforms.
+≫**Verification:** Use Icarus Verilog to compile designs and GTKWave to visualize simulation waveforms.
 
-●**Logic Synthesis:** Convert RTL code to gate-level designs with Yosys, leveraging the SKY130 PDK for practical ASIC design experience.
+≫**Logic Synthesis:** Convert RTL code to gate-level designs with Yosys, leveraging the SKY130 PDK for practical ASIC design experience.
 
-●**Key Digital Design Concepts:**
+≫**Key Digital Design Concepts:**
 
 Testbenches: Create environments to systematically verify your designs.
 
@@ -35,17 +35,17 @@ ________________________________________________________________________________
 
 ## Prerequisites
 Week 1 is beginner-friendly but having the below prerequisites will make labs and synthesis exercises much smoother.
-●Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
+Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
 
-●Verilog fundamentals (modules, ports, signals, blocking/non-blocking assignments)
+➢Verilog fundamentals (modules, ports, signals, blocking/non-blocking assignments)
 
-●Testbenches and waveform analysis concepts
+➢Testbenches and waveform analysis concepts
 
-●Logic synthesis basics (timing, optimization)
+➢Logic synthesis basics (timing, optimization)
 
-●Familiarity with Linux, Icarus Verilog, GTKWave, Yosys and Git/GitHub
+➢Familiarity with Linux, Icarus Verilog, GTKWave, Yosys and Git/GitHub
 
-●Basic programming skills (C/Python)
+➢Basic programming skills (C/Python)
 
 
 ## Workshop Structure
@@ -67,13 +67,13 @@ Day 5: Optimization in Synthesis
 ## Acknowledgements
 I gratefully acknowledge the developers and communities of the following open-source tools that made this workshop possible:
 
-☛Icarus Verilog
+≫Icarus Verilog
    For compiling and simulating Verilog designs.
-☛GTKWave
+≫GTKWave
   For waveform visualization and analysis.
-☛Yosys
+≫Yosys
   For logic synthesis and RTL-to-gates conversion.
-☛SkyWater SKY130 PDK
+≫SkyWater SKY130 PDK
   For open-source ASIC standard cell libraries.
 
 Special thanks to Kunal Ghosh and team from VLSI Sytem Design. 
