@@ -1,1 +1,57 @@
+# Day 1: Introduction to Verilog RTL Design and Synthesis
+
+Welcome to **Day 1** of the RISC-V CHIP TAPEOUT PROGRAM! Today, we will explore the fundamentals of **digital design, simulation and synthesis** using open-source tools.  
+
+Below is a structured overview of today's topics. These topics can help you build strong foundation as a beginner in RTL Design:
+
+1. [What is Design, Testbench and How a Simulator Works](#how-a-simulator-works)  
+2. [Introduction to yosys](#designing-rtl-circuits)  
+3. [Testbenches and Verification](#testbenches-and-verification)  
+4. [Getting Started with Icarus Verilog and GTKWave](#getting-started-with-icarus-verilog-and-gtkwave)  
+5. [Logic Synthesis with Yosys](#logic-synthesis-with-yosys)  
+6. [Standard Cell Libraries & Logic Gate Flavors](#standard-cell-libraries--logic-gate-flavors)  
+
+---
+
+## Design 
+
+In VLSI **Design** refers to the process of defining the structure, behavior, and data flow of a digital system before it is implemented in hardware.
+
+---
+
+## TestBench
+
+A testbench is a separate Verilog module used to verify the functionality of a design.
+It applies inputs to the design and observes outputs over time.
+
+---
+Simulator
+
+A testbench is a separate Verilog module used to verify the functionality of a design.
+It applies inputs to the design and observes outputs over time.
+
+---
+
+## Getting Started with Icarus Verilog and GTKWave
+
+- **Icarus Verilog**: An open-source Verilog compiler and simulator. It compiles your design and testbench to generate simulation outputs.  
+- **GTKWave**: A waveform viewer used to **visualize signal changes over time**.  
+Together, these tools allow you to **simulate and debug** your digital designs efficiently.
+
+---
+
+## Logic Synthesis with Yosys
+
+**Logic synthesis** converts your high-level RTL code into a **gate-level implementation** using standard cells.  
+**Yosys** is an open-source synthesis tool that reads Verilog code and produces a **netlist** suitable for simulation or ASIC/FPGA implementation. Synthesis ensures your design can be physically realized while meeting timing and area constraints.
+
+---
+
+## Standard Cell Libraries & Logic Gate Flavors
+
+**Standard cell libraries** provide predefined logic gates (AND, OR, XOR, etc.) and sequential elements (D flip-flops, latches) with known **timing and electrical characteristics**.  
+Different **flavors of logic gates** exist to optimize for **speed, area, or power**. These libraries are used during synthesis to map RTL logic to **actual physical cells** in an ASIC.
+
+---
+
 
