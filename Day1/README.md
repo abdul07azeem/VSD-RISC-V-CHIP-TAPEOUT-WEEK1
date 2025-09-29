@@ -1,5 +1,5 @@
 
-# Day 1: Introduction to Verilog RTL Design and Synthesis
+# Day 1: Introduction to Verilog RTL Design and Synthesis.(./Day1)
 
 Welcome to **Day 1** of the RISC-V CHIP TAPEOUT PROGRAM! Today, we will explore the fundamentals of **digital design, simulation and synthesis** using open-source tools.  
 
