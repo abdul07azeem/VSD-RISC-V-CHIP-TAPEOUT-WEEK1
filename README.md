@@ -51,15 +51,15 @@ Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
 ## Workshop Structure
 Day-wise Structure:
 
-Day 1: Introduction to RTL Verilog RTL Design and Synthesis.(./Day1)
+Day 1: Introduction to RTL Verilog RTL Design and Synthesis.
 
-Day 2: Timing libraries, Hierarchial vs Flat Synthesis and efficient codin styles.(./Day2)
+Day 2: Timing libraries, Hierarchial vs Flat Synthesis and efficient codin styles.
 
-Day 3: Combinational and Sequential Optimizations.(./Day3)
+Day 3: Combinational and Sequential Optimizations.
 
-Day 4: Gate Level Simulation, Blocking vs Non-Blocking Statements and Synthesis Simulation Mismatch.(./Day4)
+Day 4: Gate Level Simulation, Blocking vs Non-Blocking Statements and Synthesis Simulation Mismatch.
 
-Day 5: Optimization in Synthesis.(./Day5)
+Day 5: Optimization in Synthesis.
 
 ## License
 
