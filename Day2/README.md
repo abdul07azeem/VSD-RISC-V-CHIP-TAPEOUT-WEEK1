@@ -94,6 +94,12 @@ sudo apt install vim -y </pre>
 
 ---
 
+## Why do we do sub_module level Synthesis?
+* When we have multiple instances of same module.
+* Divide and conquer a very large/massive design.
+
+ ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/28c8fc43d2a560e004679719abea000e2678565e/Day2/sub_modul1.png)
+
 ## 🔑 Important Point:
 
 ➡ In **industrial SoCs**, designers often use a **hybrid approach**: hierarchical synthesis for top-level + flat synthesis for critical blocks.
