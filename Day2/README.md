@@ -126,7 +126,7 @@ endmodule</pre>
 
 **Step 3: View Compiled Waveform**
 
-<pre> gtkwave tb_dff_asyncres </pre>
+<pre> gtkwave tb_dff_asyncres.vcd </pre>
    
 ![ ](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/8af83f2366034f933a58cdc0229e417685c4a5b1/Day2/dff_asyncres_day02_gtkwave%5B1%5D.png)
 
