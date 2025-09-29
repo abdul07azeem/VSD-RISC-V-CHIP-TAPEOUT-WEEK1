@@ -33,7 +33,7 @@ This week combines theory sessions and lab exercises, ensuring you gain hands-on
 
 ________________________________________________________________________________________________________________________________________________________________________________________
 
-## Prerequisites
+## ⏰Prerequisites
 Week 1 is beginner-friendly but having the below prerequisites will make labs and synthesis exercises much smoother.
 Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
 
@@ -43,9 +43,7 @@ Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
 
 ➢ Logic synthesis basics (timing, optimization)
 
-➢ Familiarity with Linux, Icarus Verilog, GTKWave, Yosys and Git/GitHub
-
-➢ Basic programming skills (C/Python)
+➢ Familiarity with Linux, Icarus Verilog, GTKWave, Yosys.
 
 
 ## Workshop Structure
@@ -64,7 +62,7 @@ Day-wise Structure:
 ## License
 
 
-## Acknowledgements
+## ✨Acknowledgements
 I gratefully acknowledge the developers and communities of the following open-source tools that made this workshop possible:
 
 ≫Icarus Verilog
@@ -77,6 +75,8 @@ I gratefully acknowledge the developers and communities of the following open-so
   For open-source ASIC standard cell libraries.
 
 Special thanks to Kunal Ghosh and team from VLSI Sytem Design. 
+
+Author - Abdul Azeem
 
 
 
