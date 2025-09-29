@@ -128,7 +128,7 @@ endmodule</pre>
 
 <pre> gtkwave tb_dff_asyncres </pre>
    
-![ ](Day2/dff_asyncres_day02_gtkwave[1].png)
+![ ](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/8af83f2366034f933a58cdc0229e417685c4a5b1/Day2/dff_asyncres_day02_gtkwave%5B1%5D.png)
 
 ## **Synthesis using GTKWave:**
 
@@ -156,7 +156,7 @@ endmodule</pre>
 
 <pre>show </pre>
 
-![gtkwave tb_good_mux.vcd](D:\Day1\good_mux.v yosys.png)
+![gtkwave tb_good_mux.vcd](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/8af83f2366034f933a58cdc0229e417685c4a5b1/Day2/dff_asyncres_day_02_yosys%5B1%5D.png)
 
 ---
 
