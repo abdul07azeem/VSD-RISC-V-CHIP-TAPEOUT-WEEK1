@@ -78,6 +78,8 @@ sudo apt install vim -y </pre>
 
 # **Flat Synthesis**
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/aa1e428a8d853e0b1e6ed01b9d77a000cf12fd5d/Day2/multiple%20modules%203.png)
+
 ## **✅Advantages:**
 
 * Better QoR (timing, area, power) due to global optimization.
