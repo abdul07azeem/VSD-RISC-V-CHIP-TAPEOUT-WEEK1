@@ -51,7 +51,7 @@ Day-wise Structure:
 
 [Day 1: Introduction to Verilog RTL Design and Synthesis.](Day1)
 
-[Day 2: Timing libraries, Hierarchial vs Flat Synthesis and efficient codin styles.](Day2)
+[Day 2: Timing libraries, Hierarchial vs Flat Synthesis and efficient coding styles.](Day2)
 
 [Day 3: Combinational and Sequential Optimizations.](Day3)
 
