@@ -51,7 +51,7 @@ Basic digital logic (gates, combinational/sequential circuits, Boolean algebra)
 ## Workshop Structure
 Day-wise Structure:
 
-Day 1: Introduction to RTL Verilog RTL Design and Synthesis.
+[Day 1: Introduction to Verilog RTL Design and Synthesis.](#Day1-Introduction-to-Verilog-RTL-Design-and-Synthesis.)
 
 Day 2: Timing libraries, Hierarchial vs Flat Synthesis and efficient codin styles.
 
