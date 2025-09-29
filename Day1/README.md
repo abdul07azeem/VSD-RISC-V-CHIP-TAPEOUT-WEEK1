@@ -12,8 +12,8 @@ Below is a structured overview of today's topics. These topics can help you buil
 5. [Logic Synthesis with Yosys](#logic-synthesis-with-yosys)  
 
 ---
-
-## Design(#how-a-simulator-works)(#how-a-simulator-works)
+# 1. [What is Design, Testbench and How a Simulator Works](#how-a-simulator-works)
+## Design.
 
 In VLSI **Design** refers to the process of defining the structure, behavior, and data flow of a digital system before it is implemented in hardware.
 
@@ -31,7 +31,7 @@ A testbench is a separate Verilog module used to verify the functionality of a d
 It applies inputs to the design and observes outputs over time.
 
 ---
-
+# 2. [Introduction to iverilog and GTKWave](#designing-rtl-circuits)
 ## Getting Started with Icarus Verilog and GTKWave(#designing-rtl-circuits) 
 
 - **Icarus Verilog**: An open-source Verilog compiler and simulator. It compiles your design and testbench to generate simulation outputs.  
@@ -39,6 +39,7 @@ It applies inputs to the design and observes outputs over time.
 Together, these tools allow you to **simulate and debug** your digital designs efficiently.
 
 ---
+# 3. [Verilog Code Analysis](#testbenches-and-verification)
 ## Verilog Code Analysis(#testbenches-and-verification) 
 
 # Lab: Simulating a 2:1 Multiplexer 
@@ -80,6 +81,7 @@ The Code for the multiplexer is given below as:
  » This implements a 2-to-1 multiplexer, choosing between two inputs based on the select signal.
 	
 ---
+# 4. [Why Different Flavours of Gates](#getting-started-with-icarus-verilog-and-gtkwave)
 
 ## Why Different Flavours of Gates(#getting-started-with-icarus-verilog-and-gtkwave)  
 
@@ -88,6 +90,8 @@ Different **flavors of logic gates** exist to optimize for **speed, area, or pow
 
 ---
 
+
+# 5. [Logic Synthesis with Yosys](#logic-synthesis-with-yosys) 
 
 ## Logic Synthesis with Yosys(#logic-synthesis-with-yosys)
 
