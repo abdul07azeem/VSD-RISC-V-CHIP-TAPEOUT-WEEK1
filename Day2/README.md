@@ -62,6 +62,8 @@ sudo apt install vim -y </pre>
 
 # **Hierarchical Synthesis**
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/945f08ccc8526ff55f1646c9721522d217792948/Day2/multiple%20modules%201.png)
+
 ## **✅Advantages:**
 
 * Easier debugging and ECO (Engineering Change Order).
@@ -71,6 +73,8 @@ sudo apt install vim -y </pre>
  ## **❌Disadvantages:**
 * Suboptimal QoR (Quality of Results) since optimizations stop at module boundaries.
 * Interconnect delays between modules may hurt timing.
+
+  
 
 # **Flat Synthesis**
 
