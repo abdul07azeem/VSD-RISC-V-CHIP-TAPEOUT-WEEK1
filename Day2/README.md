@@ -132,9 +132,46 @@ endmodule</pre>
 
 ## **Synthesis using GTKWave:**
 
-**Step 1:**
+**Step 1:** Invoke Yosys
 
-<pre> 
+<pre>yosys</pre>
+
+**Step 2:** Read the Liberty File
+
+<pre>read_liberty -lib path/to/your/sky130_fd_sc_hd__tt__025C_1v80.lib</pre>
+
+**Step 3:** Read Verilog Code
+
+<pre>read_verilog /home/abdul/VLSI/sky130DesignAndSynthesisWorkshop/verilog_files/dff_asyncres.v</pre>
+
+**Step 4:** Synthesize the design
+
+<pre>synth -top dff_asyncres</pre>
+
+**Step 5:** Technology Mapping
+
+<pre>abc -liberty/address/to/your/sky130file/sky130_fd_sc_hd__tt__025C_1v80.lib</pre>
+
+**Step 6:** Observe the Gate-level Netlist
+
+<pre>show </pre>
+
+![gtkwave tb_good_mux.vcd](D:\Day1\good_mux.v yosys.png)
+
+---
+
+
+# 🔑Key Takeaways
+
+1. How Various Flip-Flop Coding Styles Actually work.
+   
+2. Key working Differences between Synchronous and Asyncronous Flipflops.
+
+3. How unwanted waveform glitches can be eliminated using Flipflops.
+   
+4. Key Differences between Hierarchial and Flat Synthesis
+
+5. Understood Importace and working of SKY130 Library.
 
 
 
