@@ -112,6 +112,10 @@ begin
 end
 endmodule</pre>
 
+## **Simulation Using iverilog and GTKWave:**
+![ ](Day2/dff_asyncres_day02_gtkwave[1].png)
+
+
 
 
 
