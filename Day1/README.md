@@ -68,9 +68,9 @@ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files</pre>
 
 **Step 4:** View Waveform in GTKWave using Value Change Dump file[vcd file]
 
-<pre> gtkwave produced.vcd file</pre>
+<pre> gtkwave tb_good_mux.vcd file</pre>
 
-![gtkwave tb_good_mux.vcd](D:\Day1\good_mux.png)
+![gtkwave tb_good_mux.vcd](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/3b3cdf4f7178037fade82084c8b7279920b6dc84/Day1/good_mux%20day01%20yosys.png)
 
 The Code for the multiplexer is given as:
 
@@ -152,7 +152,7 @@ Let us now Synthesis good_mux file using Yosys
 
 <pre>show </pre>
 
-![gtkwave tb_good_mux.vcd](D:\Day1\good_mux.v yosys.png)
+![gtkwave tb_good_mux.vcd](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/3b3cdf4f7178037fade82084c8b7279920b6dc84/Day1/good_mux.v.png)
 
 ---
 ## Summary
