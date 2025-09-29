@@ -68,7 +68,7 @@ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files</pre>
 
 **Step 4:** View Waveform in GTKWave using Value Change Dump file[vcd file]
 
-<pre> gtkwave tb_good_mux.vcd file</pre>
+<pre> gtkwave tb_good_mux.vcd </pre>
 
 ![gtkwave tb_good_mux.vcd](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/3b3cdf4f7178037fade82084c8b7279920b6dc84/Day1/good_mux%20day01%20yosys.png)
 
