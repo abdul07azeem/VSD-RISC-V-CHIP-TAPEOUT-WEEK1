@@ -64,6 +64,8 @@ sudo apt install vim -y </pre>
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/945f08ccc8526ff55f1646c9721522d217792948/Day2/multiple%20modules%201.png)
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/2892fa00d9df3156044128c2192348e53bfb7159/Day2/multiple_modules.png)
+
 ## **✅Advantages:**
 
 * Easier debugging and ECO (Engineering Change Order).
