@@ -112,8 +112,29 @@ begin
 end
 endmodule</pre>
 
+**NOTE:** The Asyncronous Flop doesnot wait for posedge pulse of the clock to work/execute.
+
 ## **Simulation Using iverilog and GTKWave:**
+
+**Step 1: Compile**
+
+<pre> iverilog dff_asyncres.v tb_dff_asyncres.v</pre>
+
+**Step 2: Run** 
+
+<pre> ./a.out </pre>
+
+**Step 3: View Compiled Waveform**
+
+<pre> gtkwave tb_dff_asyncres </pre>
+   
 ![ ](Day2/dff_asyncres_day02_gtkwave[1].png)
+
+## **Synthesis using GTKWave:**
+
+**Step 1:**
+
+<pre> 
 
 
 
