@@ -99,5 +99,16 @@ Verilog Code
 
 # 4. [Labs on Combinational Logic Optimization.](#Combinational-logic-optimization)
 
+## Lab 1:
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/6cd8d593dbb15d48dc8cc573bca4c861a6b612d9/Day3/DAY3%2027lab%20opt_check2.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/6cd8d593dbb15d48dc8cc573bca4c861a6b612d9/Day3/opt_check2.png)
+
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/6cd8d593dbb15d48dc8cc573bca4c861a6b612d9/Day3/D1%20SK3%20L2%20Lab2.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/6cd8d593dbb15d48dc8cc573bca4c861a6b612d9/Day3/counter_opt2.v%20yosys%2031.png)
+
 
 
