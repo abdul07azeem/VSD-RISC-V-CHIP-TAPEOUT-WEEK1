@@ -93,9 +93,9 @@ Verilog Code
 
 ## Lab 5:
 
-![]()
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/020a46e316ef0a16c80e0085d02dd243ab93855c/Day3/dff_const5.v%20gtkwave%2029%20full%20image.png)
 
-![]()
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/020a46e316ef0a16c80e0085d02dd243ab93855c/Day3/dff_const5.v%20gtkwave%2029.png)
 
 # 4. [Labs on Combinational Logic Optimization.](#Combinational-logic-optimization)
 
