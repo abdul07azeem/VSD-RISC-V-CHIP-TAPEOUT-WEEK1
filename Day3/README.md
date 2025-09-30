@@ -69,6 +69,10 @@ This type of Optimization is called as **Constant Propagation.**
 
 Verilog Code
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/fb313ad826cf71d5a554982fb840d7f3d4e90034/Day3/dff_const1.v%20yosys%2028.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/fb313ad826cf71d5a554982fb840d7f3d4e90034/Day3/dff_const2%20yosys%2029.png)
+
 # 4. [Labs on Combinational Logic Optimization.](#Combinational-logic-optimization)
 
 
