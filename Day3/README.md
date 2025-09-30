@@ -81,15 +81,15 @@ Verilog Code
 
 ## Lab 3:
 
-![]()
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/f8ca84e0ba4d451a874312d18703224016f26e47/Day3/dff_const3.v%20gtkwave%2029%20full%20image.png)
 
-![]()
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/f8ca84e0ba4d451a874312d18703224016f26e47/Day3/dff_const3.v%20gtkwave%2029.png)
 
 ## Lab 4:
 
-![]()
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/f8ca84e0ba4d451a874312d18703224016f26e47/Day3/dff_const4.v%20gtkwave%2029%20full%20image.png)
 
-![]()
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/f8ca84e0ba4d451a874312d18703224016f26e47/Day3/dff_const4%20yosys%20full%20image.png)
 
 ## Lab 5:
 
