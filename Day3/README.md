@@ -8,6 +8,7 @@ Welcome to **Day 3** of the RISC-V CHIP TAPEOUT PROGRAM Organized by VLSI System
 3. [Types of Logic Optimizations.](#Types-of-logic-optimization)
 4. [Labs on Sequential Logic Optimization.](#Sequential-logic-optimization)
 5. [Labs on Combinational Logic Optimization.](#Combinational-logic-optimization)
+6. [Sequentail Optimization for Unused Outputs](#unused-outputs)
 
 # 1. [What are Asynchronous and Synchronous D Flip-Flops.](#d-flipflops)
 
@@ -86,25 +87,62 @@ This type of Optimization is called as **Constant Propagation.**
 ## Simulation and Synthesis Flow:
 
 **1. Icarus Verilog:**
-<pre> 
-     Step 1: Compile the verilog Code:
-     iverilog design_file.v testbench_file.v
 
-     Step 2: Generate Value Change Dump File
-      ./a.out
+**Step 1: Compile the verilog Code:**
 
-     Step 3: View Waveform in GTKWave
-     gtkwave vcdfile.vcd
-</pre>
+<pre>iverilog design_file.v testbench_file.v</pre>
+
+**Step 2: Generate Value Change Dump File**
+
+<pre>./a.out</pre>
+
+**Step 3: View Waveform in GTKWave**
+
+<pre>gtkwave vcdfile.vcd</pre>
 
 **2. Synthesis and Optimization in Yosys**
+**Synthesis using GTKWave:**
 
-<pre>
-Step 1: Invoke yosys
-     yosys
-     
-Step 2:Read Liberty file
-</pre>
+**Step 1:** Invoke Yosys
+
+<pre>yosys</pre>
+
+**Step 2:** Read the Liberty File
+
+<pre>read_liberty -lib path/to/your/sky130_fd_sc_hd__tt__025C_1v80.lib</pre>
+
+**Step 3:** Read Verilog Code
+
+<pre>read_verilog /home/abdul/VLSI/sky130DesignAndSynthesisWorkshop/verilog_files/test_file.v</pre>
+
+**Step 4:** Synthesize the design
+
+<pre>synth -top test_file</pre>
+
+**Step 5:** Command to do Optimization
+
+<pre> opt_clean -purge </pre>
+
+**Step 6:** Map Library if Sequential Optimization
+
+<pre> dfflibmap -liberty  /address/to/your/sky130file/sky130_fd_sc_hd__tt__025C_1v80.lib </pre>
+
+**Step 7:** Technology Mapping
+
+<pre>abc -liberty /address/to/your/sky130file/sky130_fd_sc_hd__tt__025C_1v80.lib</pre>
+
+**Step 8:** Flatten Hierarchy(If needed)
+
+<pre>flatten</pre>
+
+**Step 9:** Write a separate File if any changes needed
+
+<pre> write_verilog -noattr filename.v </pre>
+
+**Step 10:** Observe the Gate-level Netlist
+
+<pre>show </pre>
+
 
 ## Lab 1: 
 
@@ -217,12 +255,46 @@ endmodule</pre>
 
 ## Lab 1:
 
+Verilog Code:
 
+<pre>
+module opt_check (input a , input b , output y);
+        assign y = a?b:0;
+endmodule	
+</pre>
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/6cd8d593dbb15d48dc8cc573bca4c861a6b612d9/Day3/DAY3%2027lab%20opt_check2.png)
 
+## Lab 2: 
+
+Verilog Code:
+
+<pre>module opt_check2 (input a , input b , output y);
+        assign y = a?1:b;
+endmodule
+
+</pre>
+
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/6cd8d593dbb15d48dc8cc573bca4c861a6b612d9/Day3/opt_check2.png)
 
+
+# 6. [Sequential Optimization for Unused Outputs](#unused-outputs)
+
+Verilog Code:
+
+<pre>module counter_opt (input clk , input reset , output q);
+reg [2:0] count;
+assign q = count[0];
+
+always @(posedge clk ,posedge reset)
+begin
+        if(reset)
+                count <= 3'b000;
+        else
+                count <= count + 1;
+end
+endmodule
+</pre>
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/6cd8d593dbb15d48dc8cc573bca4c861a6b612d9/Day3/D1%20SK3%20L2%20Lab2.png)
 
