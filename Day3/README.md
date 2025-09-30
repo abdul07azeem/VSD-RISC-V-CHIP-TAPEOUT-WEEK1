@@ -73,6 +73,30 @@ Verilog Code
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/fb313ad826cf71d5a554982fb840d7f3d4e90034/Day3/dff_const2%20yosys%2029.png)
 
+## Lab 2:
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/3b54bebeada8c748cd42302ef3a3844fb085a154/Day3/dff_const3%20yosys.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/3b54bebeada8c748cd42302ef3a3844fb085a154/Day3/dff_const2.v%20gtkwave%2028.png)
+
+## Lab 3:
+
+![]()
+
+![]()
+
+## Lab 4:
+
+![]()
+
+![]()
+
+## Lab 5:
+
+![]()
+
+![]()
+
 # 4. [Labs on Combinational Logic Optimization.](#Combinational-logic-optimization)
 
 
