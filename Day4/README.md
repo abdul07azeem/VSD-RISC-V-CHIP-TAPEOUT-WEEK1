@@ -160,20 +160,74 @@ GLS also helps detect **timing issues, glitches, and synthesis-simulation mismat
 
 # 4. Lab Sessions: 
 
+## **Lab 1:**
+
+Verilog Code:
+<pre>
+   module ternary_operator_mux(input i0 , input i1, input sel , output y);
+assign y = sel?i1:i0;
+endmodule
+</pre>
+
+<pre>
+module ternary_operator_mux(i0, i1, sel, y);
+  wire _0_;
+  input i0;
+  input i1;
+  input sel;
+  output y;
+  assign _0_ = sel ? i1 : i0;
+  assign y = _0_;
+endmodule
+</pre>
+
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/15b929a93844621baa9a84c203c9002406154e62/Day4/ternary_operator_mux.v%20Day04%20gls%20gtkwave.png)
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/15b929a93844621baa9a84c203c9002406154e62/Day4/ternary_operator_mux.v%20gtkwave%20Day4%2037.png)
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/15b929a93844621baa9a84c203c9002406154e62/Day4/ternary_operator_mux.v%20Day04%20yosys%2037.png)
 
-![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/5374ce4066b895c4017b3dd825a33a822095324a/Day4/bad_mux.v%20day04%2038%20yosys%20.png)
+## **Lab 2:**
 
-![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/5374ce4066b895c4017b3dd825a33a822095324a/Day4/bad_mux.v%20day04%20gtkwave%2038.png)
+<pre>
 
+module bad_mux (input i0 , input i1 , input sel , output reg y);
+always @ (sel)
+begin
+        if(sel)
+                y <= i1;
+        else
+                y <= i0;
+end
+endmodule
 
+</pre>
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/69414c55fba8037c545d4a317a70e59ab74ee544/Day4/bad_mux.v%20day04%2038%20yosys%20.png)
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/69414c55fba8037c545d4a317a70e59ab74ee544/Day4/bad_mux.v%20day04%20gtkwave%2038.png)
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/69414c55fba8037c545d4a317a70e59ab74ee544/Day4/blocking_caveat%20day04%20gtkwave%2039.png)
+
+**Lab 3:**
+
+Verilog code:
+<pre>
+   
+module blocking_caveat (input a , input b , input  c, output reg d);
+reg x;
+always @ (*)
+begin
+        d = x & c;
+        x = a | b;
+end
+endmodule
+
+</pre>
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/69414c55fba8037c545d4a317a70e59ab74ee544/Day4/blocking_caveat.v%20day04%2040%20yosys.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/69414c55fba8037c545d4a317a70e59ab74ee544/Day4/blocking_caveat.v%20day04%20gtkwave%20gls.png)
 
 
 
