@@ -160,6 +160,14 @@ GLS also helps detect **timing issues, glitches, and synthesis-simulation mismat
 
 # 4. Lab Sessions: 
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/15b929a93844621baa9a84c203c9002406154e62/Day4/ternary_operator_mux.v%20Day04%20gls%20gtkwave.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/15b929a93844621baa9a84c203c9002406154e62/Day4/ternary_operator_mux.v%20gtkwave%20Day4%2037.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/15b929a93844621baa9a84c203c9002406154e62/Day4/ternary_operator_mux.v%20Day04%20yosys%2037.png)
+
+
+
 
 
 
