@@ -161,9 +161,11 @@ end
 endmodule
 </pre>
 
-![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/incomp_case.v%20day05%20gtkwave%2046.png)
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/incomp_if.v%20day%2005%20gtkwave%2044.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/incomp_case.v%20day05%20gtkwave%2046.png)
+
 
 **Lab 2:**
 
@@ -222,6 +224,9 @@ end
 endmodule
 </pre>
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/4c2c7313499f4ebfd8b06da05cc63656c975d510/Day5/comp_case.v%20day05%20yosys%2047.png)
+
+
 **Lab 5:**
 
 Verilog code
@@ -246,6 +251,9 @@ endmodule
 </pre>
 
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/4c2c7313499f4ebfd8b06da05cc63656c975d510/Day5/partial_case_assign.v%20day05%20gtkwave%2048.png)
+
+
 **Lab 6:**
 
 <pre>
@@ -261,6 +269,11 @@ begin
         endcase
 end
 endmodule</pre>
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/4c2c7313499f4ebfd8b06da05cc63656c975d510/Day5/bad_case.v%20day05%20gtkwave%20gls%2049.png)
+
+
+
 
 **Lab 7:**
 
