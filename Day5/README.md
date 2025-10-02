@@ -206,6 +206,8 @@ endmodule
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/partial_case_assign%20.v%20day05%20yosys%2048.png)
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/426cefac566eef1b1beb493aeea815eba46ef131/Day5/incomp_if2.v_day_05_yosys_45%5B1%5D.png)
+
 **Lab 4:**
 
 Verilog code
@@ -225,6 +227,9 @@ endmodule
 </pre>
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/4c2c7313499f4ebfd8b06da05cc63656c975d510/Day5/comp_case.v%20day05%20yosys%2047.png)
+
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/426cefac566eef1b1beb493aeea815eba46ef131/Day5/comp_case.v_day05_yosys_47%5B1%5D.png)
 
 
 **Lab 5:**
@@ -272,7 +277,7 @@ endmodule</pre>
 
 ![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/4c2c7313499f4ebfd8b06da05cc63656c975d510/Day5/bad_case.v%20day05%20gtkwave%20gls%2049.png)
 
-
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/426cefac566eef1b1beb493aeea815eba46ef131/Day5/bad_case.v_day05_yosys_49%5B1%5D.png)
 
 
 **Lab 7:**
@@ -292,6 +297,10 @@ end
 endmodule
 </pre>
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/426cefac566eef1b1beb493aeea815eba46ef131/Day5/1111%5B1%5D.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/426cefac566eef1b1beb493aeea815eba46ef131/Day5/222222%5B1%5D.png)
+
 **Lab 8:**
 
 <pre>
@@ -309,6 +318,10 @@ end
 end
 endmodule
 </pre>
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/426cefac566eef1b1beb493aeea815eba46ef131/Day5/5555555%5B1%5D.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/426cefac566eef1b1beb493aeea815eba46ef131/Day5/3333333%5B1%5D.png)
 
 **Lab 9:**
 
@@ -330,3 +343,13 @@ fa u_fa_0 (.a(num1[0]),.b(num2[0]),.c(1'b0),.co(int_co[0]),.sum(int_sum[0]));
 assign sum[7:0] = int_sum;
 assign sum[8] = int_co[7];
 endmodule </pre>
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/426cefac566eef1b1beb493aeea815eba46ef131/Day5/444444%5B1%5D.png)
+
+
+
+
+
+
+
+
