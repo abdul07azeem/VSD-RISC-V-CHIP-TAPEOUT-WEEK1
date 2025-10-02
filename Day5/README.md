@@ -161,6 +161,10 @@ end
 endmodule
 </pre>
 
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/incomp_case.v%20day05%20gtkwave%2046.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/incomp_if.v%20day%2005%20gtkwave%2044.png)
+
 **Lab 2:**
 
 Verilog code
@@ -174,6 +178,10 @@ begin
 end
 endmodule
 </pre>
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/incomp_if.v%20day05%20yosys%2044.png)
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/incomp_if2.v%20day05%20%20gtkwave%2045.png)
 
 **Lab 3:**
 
@@ -193,6 +201,8 @@ end
 endmodule
                   
 </pre>
+
+![](https://github.com/abdul07azeem/VSD-RISC-V-CHIP-TAPEOUT-WEEK1/blob/7f57a88d1e1bf8bfa23bc4e78d520c7851052d1c/Day5/partial_case_assign%20.v%20day05%20yosys%2048.png)
 
 **Lab 4:**
 
